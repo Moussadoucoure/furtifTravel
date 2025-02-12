@@ -1,0 +1,79 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+
+
+.container .carousel-indicators button{
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+
+}
+.hauteur2{
+    height: 100vh !important;
+}
+h1
+{
+    text-align: center;
+
+
+}
+
+#erreur{
+    text-decoration-color: red;
+}
+#erreur2{
+    text-decoration-color: red;
+}
+
+table{
+    caption-side: top !important;
+    border-spacing: 0;
+
+    margin: 0% auto;
+    width: 50%;
+    margin-bottom: 5%;
+    left: 600%;
+
+
+}
+td,th{
+    border: solid 1px black;
+    padding: 10px;
+    text-align: center;
+
+}
+
+th{
+    background-color: rgba(215, 56, 56, 0.7473939);
+    color: black;
+    line-height: 1.4em;
+    text-transform: uppercase;
+
+}
+caption{
+    font-size: 2em;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+.chart-container{
+    display: flex;
+    width: 400px;
+    margin:20px;
+}
+
+.dashbord{
+    display: flex;
+    width: 15%;
+
+}
+.avion{
+    width: 80%;
+    height: 60%;
+    margin:15px;
+}
+
+
