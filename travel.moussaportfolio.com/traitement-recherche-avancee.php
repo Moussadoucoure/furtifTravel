@@ -26,7 +26,7 @@ foreach ($resultats as $resultat) {?>
                     <h3 class= "prenom"><?=$resultat['prenom']?></h3>
                     <p class="poste"><?=$resultat['poste']?></p>
                     <span class="description"><?=$resultat['description']?></span>
-                    <a class="btn btn-success btn-block" href="resultat.php?detail=<?=$resultat['id_emploi']?>" class="boutou">Détail</a>
+
                 </div>
 
                 <?php

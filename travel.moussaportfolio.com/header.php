@@ -13,10 +13,13 @@
     <link rel="stylesheet" href="style/index.css">
     <link rel="stylesheet" href="style/style.css">
     <link rel="stylesheet" href="style/liste.css">
+     <link rel="stylesheet" href="style/emploi.css">
     <link rel="stylesheet" href="style/membre.css">
     <link rel="stylesheet" href="style/contact.css">
     <link rel="stylesheet" href="style/footer.css">
     <link rel="stylesheet" href="style/rechercheAvancee.css">
+    <link rel="stylesheet" href="styles/inscriptionIdentification.css">
+    <link rel="stylesheet" href="styles/inscriptionInformation.css">
     <link rel="script" href="Js/carrousel.js"/>
 
     <title><?=$titre?></title>

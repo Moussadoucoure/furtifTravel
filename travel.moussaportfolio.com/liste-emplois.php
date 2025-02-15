@@ -22,7 +22,7 @@ foreach ($listeEmploi as $emploi) {?>
 
                 <h3 class="prenom"><?=$emploi['prenom']?></h3>
                 <p class="poste"><?=$emploi['poste']?></p>
-                <p class="description"><?=$emploi['description']?></p>
+
                 <a class="btn btn-success btn-block boutou" href="emploi.php?detail=<?=$emploi['id_emploi']?>">Détail</a>
 
 

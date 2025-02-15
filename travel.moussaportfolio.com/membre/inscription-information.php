@@ -1,6 +1,8 @@
 <?php
 require "../config.php";
 
+
+
 if (isset($_POST['inscription-identification']) && !empty($_POST['inscription-identification'])) {
     $filtreMembre = array(
         'prenom' => FILTER_SANITIZE_SPECIAL_CHARS,
@@ -31,9 +33,10 @@ if (isset($_POST['inscription-identification']) && !empty($_POST['inscription-id
         }
     }
 }
-$titre = "Inscription";
+$titre = "Furtif Travel";
 require "header.php";
 ?>
+<link rel="stylesheet" href="styles/inscriptionInformation.css">
 
 <h2>Inscription d'un membre - identification (2/2)</h2>
 
@@ -49,22 +52,22 @@ require "header.php";
     <fieldset>
         <legend>Information</legend>
 
-        <div>
+        <div class="form-group">
         <label for="pseudonyme">Pseudonyme</label>
         <input type="text" name="pseudonyme" id="pseudonyme">
         </div>
 
-        <div>
+        <div class="form-group">
         <label for="motdepasse">Mot de passe</label>
         <input type="password"  name="motdepasse" id="motdepasse">
         </div>
 
-        <div>
+        <div class="form-group">
         <label for="motdepasse2">Confirmer le mot de passe</label>
         <input type="password"  name="motdepasse2" id="motdepasse2">
         </div><br>
 
-        <div class="col-sm-3">
+        <div class="form-group">
             <input type="file"  name="icone" class="form-control" aria-label="icone"><br>
         </div>
     </fieldset>
